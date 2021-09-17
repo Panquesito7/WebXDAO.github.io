@@ -1,3 +1,7 @@
+.test {
+  cursor: pointer
+}
+
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -28,6 +32,9 @@
   .card {
     margin: 0 auto 2rem;
   }
+  .test {
+    cursor: pointer
+  }
 }
 
 @media (max-width: 768px) {
@@ -37,5 +44,8 @@
   }
   .card {
     margin: 0 auto 2rem;
+  }
+  .test {
+    cursor: pointer
   }
 }
