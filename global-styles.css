@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 37px auto 0;
+  width: calc(280px * 4);
 }
 
 .card {
@@ -9,6 +10,7 @@
   cursor: pointer;
   height: 280px;
   position: relative;
+  width: 243px;
 }
 
 .card h2 {
@@ -23,6 +25,7 @@
 @media (max-width: 1100px) {
   .cards {
     grid-template-columns: 1fr 1fr;
+    width: calc(280px * 2);
   }
   .card {
     margin: 0 auto 2rem;
