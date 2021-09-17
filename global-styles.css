@@ -1,3 +1,10 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 37px auto 0;
+  width: calc(280px * 4);
+}
+
 body {
   font-family: segoe ui, helvetica, sans-serif;
   background: #333;
