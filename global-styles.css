@@ -1,3 +1,7 @@
+.test {
+  cursor: pointer;
+}
+
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6,9 +10,8 @@
 }
 
 .card {
-  box-shadow: 0 3px 10px 0 #aaa;
   cursor: pointer;
-  height: 380px;
+  height: 280px;
   position: relative;
   width: 380px;
 }
