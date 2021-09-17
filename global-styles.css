@@ -8,9 +8,9 @@
 .card {
   box-shadow: 0 3px 10px 0 #aaa;
   cursor: pointer;
-  height: 280px;
+  height: 380px;
   position: relative;
-  width: 280px;
+  width: 380px;
 }
 
 .card h2 {
